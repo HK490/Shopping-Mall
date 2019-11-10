@@ -1,0 +1,35 @@
+body{
+    padding-top: 10vh;
+}
+
+.headers {
+    text-align: center;
+}
+
+/* NAVBAR */
+.navbar{
+    display: inline-block! important;
+}
+
+/* SLIDER */
+.carousel-item{
+    height: 90vh;
+}
+
+/* COLLECTIONS */
+.collectionsContainer{
+    padding: 3%;
+    max-height: 100vh;
+
+}
+
+.card-deck{
+    padding: 3%;
+}
+
+/* .card {
+    float: left;
+    padding: 10px;
+    margin: 30px;
+    left: 5.5%;
+} */
