@@ -16,10 +16,15 @@ body{
     height: 90vh;
 }
 
+.sliderBackground{
+    width: 100%;
+    height: 100%;
+}
+
 /* COLLECTIONS */
 .collectionsContainer{
     padding: 3%;
-    max-height: 100vh;
+    /* max-height: 100vh; */
 
 }
 
@@ -27,9 +32,17 @@ body{
     padding: 3%;
 }
 
-/* .card {
-    float: left;
-    padding: 10px;
-    margin: 30px;
-    left: 5.5%;
-} */
+/* FOOTER */
+.footer {
+    width: 100%;
+    background-color: #F8F8F8;
+    text-align: center;
+    margin:0;
+    padding: 5px;
+    font-size: .8em;
+}
+
+#footerList{
+    padding-left: 10%;
+    padding-right: 10%;
+}
