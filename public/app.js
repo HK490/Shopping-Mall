@@ -49,3 +49,4 @@ $(".card").on("mouseover", function(){
     $(this).children(".scarfInfo").hide()
   })
 
+  
