@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <title>Hello, world!</title>
 </head>
 
@@ -18,27 +18,26 @@
 
     <!-- Navbar -->
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid-nav text-center">
-            <a class="navbar-brand" href="#">Company Name</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a id="signInBtn" class="nav-link">Sign In</a>
-                    </li>
-                    <!-- <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Create Account</a>
-                    </li>
-                </ul>
-            </div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a id="createAcctBtn" class="nav-link text-white" href="#"><i class="fas fa-user-plus"></i></a>
+                </li>
+            </ul>
         </div>
+
+
+        <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+                <a id="signInBtn" class="nav-link text-white" href="#"><i class="fas fa-user"></i></a>
+            </li>
+        </ul>
     </nav>
 
     <!-- Slider -->
@@ -97,29 +96,59 @@
 
         <div class="card-deck">
             <div class="card">
-                <div class="imageCollection">
+
                 <img src="https://images-na.ssl-images-amazon.com/images/I/81VoUEtCnEL._UX679_.jpg" class="card-img-top"
                     alt="...">
+
+
+                <div class="scarfInfo mx-auto my-auto" style="width: 18rem;">
+                    <div class="card-body text-center justify-content-center">
+                        <div class="card-header">
+                            <h5 class="card-title">Scarf Name</h5>
+                        </div>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="card-footer text-white">
+                            <a href="#" class="card-link text-white">Add To Cart</a>
+                        </div>
+                    </div>
                 </div>
-                <div class="card-body text-center">
-                    <h5 class="card-title">Scarf Name</h5>
-                    <a href="#" class="card-link text-muted">Add To Cart</a>
-                </div>
+
+
             </div>
             <div class="card">
                 <img src="https://img.smartpak.com/images/product/highres/20942_cream_silo.jpg" class="card-img-top"
                     alt="...">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Scarf Name</h5>
-                    <a href="#" class="card-link text-muted">Add To Cart</a>
+
+
+                <div class="scarfInfo mx-auto my-auto" style="width: 18rem;">
+                    <div class="card-body text-center justify-content-center">
+                        <div class="card-header">
+                            <h5 class="card-title">Scarf Name</h5>
+                        </div>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="card-footer text-white">
+                            <a href="#" class="card-link text-white">Add To Cart</a>
+                        </div>
+                    </div>
                 </div>
+
+
+
+
             </div>
             <div class="card">
                 <img src="https://images.timberland.com/is/image/timberland/A1EQS275-HERO?$PDP-FULL-IMAGE$"
                     class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Scarf Name</h5>
-                    <a href="#" class="card-link text-muted">Add To Cart</a>
+                <div class="scarfInfo mx-auto my-auto" style="width: 18rem;">
+                    <div class="card-body text-center justify-content-center">
+                        <div class="card-header">
+                            <h5 class="card-title">Scarf Name</h5>
+                        </div>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="card-footer text-white">
+                            <a href="#" class="card-link text-white">Add To Cart</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -128,25 +157,46 @@
             <div class="card">
                 <img src="https://www.secretground.com/wp-content/uploads/2018/12/Cotton-Floral-Bird-Printed-Elegant-Scarf-Women-Long-Scarf-Warm-Wrap-Shawl-Female-Fashion-Design-Charming.jpg_640x640.jpg"
                     class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Scarf Name</h5>
-                    <a href="#" class="card-link text-muted">Add To Cart</a>
+                <div class="scarfInfo mx-auto my-auto" style="width: 18rem;">
+                    <div class="card-body text-center justify-content-center">
+                        <div class="card-header">
+                            <h5 class="card-title">Scarf Name</h5>
+                        </div>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="card-footer text-white">
+                            <a href="#" class="card-link text-white">Add To Cart</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="card">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSMGeUfhw0zEsrcrMqX2F5-geC6PDFyUbEWRn9uFeqt_UlKHB-x"
                     class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Scarf Name</h5>
-                    <a href="#" class="card-link text-muted">Add To Cart</a>
+                <div class="scarfInfo mx-auto my-auto" style="width: 18rem;">
+                    <div class="card-body text-center justify-content-center">
+                        <div class="card-header">
+                            <h5 class="card-title">Scarf Name</h5>
+                        </div>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="card-footer text-white">
+                            <a href="#" class="card-link text-white">Add To Cart</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="card">
                 <img src="https://cdn.shopify.com/s/files/1/2345/0339/products/product-image-552547517_1024x1024.jpg?v=1524935512"
                     class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Scarf Name</h5>
-                    <a href="#" class="card-link text-muted">Add To Cart</a>
+                <div class="scarfInfo mx-auto my-auto" style="width: 18rem;">
+                    <div class="card-body text-center justify-content-center">
+                        <div class="card-header">
+                            <h5 class="card-title">Scarf Name</h5>
+                        </div>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="card-footer text-white">
+                            <a href="#" class="card-link text-white">Add To Cart</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -156,25 +206,46 @@
             <div class="card">
                 <img src="https://cdn.shopify.com/s/files/1/2727/8372/products/women-silk-scarf-elegant-floral-printed-unique-design-10-colors-black-scarves-vendor-14-twinshelf-com-llc_781_1024x1024.jpg?v=1536626603"
                     class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Scarf Name</h5>
-                    <a href="#" class="card-link text-muted">Add To Cart</a>
+                <div class="scarfInfo mx-auto my-auto" style="width: 18rem;">
+                    <div class="card-body text-center justify-content-center">
+                        <div class="card-header">
+                            <h5 class="card-title">Scarf Name</h5>
+                        </div>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="card-footer text-white">
+                            <a href="#" class="card-link text-white">Add To Cart</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="card">
                 <img src="https://guide.alibaba.com/image/i3/shirai-bai-jingqiu-winter-knitted-scarf-long-scarf-elegant-ladies-section-lace-embellishment-e6581/TB1r057KVXXXXbnXpXXXXXXXXXX_!!0-item_pic.jpg"
                     class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Scarf Name</h5>
-                    <a href="#" class="card-link text-muted">Add To Cart</a>
+                <div class="scarfInfo mx-auto my-auto" style="width: 18rem;">
+                    <div class="card-body text-center justify-content-center">
+                        <div class="card-header">
+                            <h5 class="card-title">Scarf Name</h5>
+                        </div>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="card-footer text-white">
+                            <a href="#" class="card-link text-white">Add To Cart</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="card">
                 <img src="https://i5.walmartimages.com/asr/74946176-e7fa-482d-bbad-d923c0ac6aa0_1.839dee058fdaa93afdab79292d18a03f.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF"
                     class="card-img-top" alt="...">
-                <div class="card-body text-center">
-                    <h5 class="card-title">Scarf Name</h5>
-                    <a href="#" class="card-link text-muted">Add To Cart</a>
+                <div class="scarfInfo mx-auto my-auto" style="width: 18rem;">
+                    <div class="card-body text-center justify-content-center">
+                        <div class="card-header">
+                            <h5 class="card-title">Scarf Name</h5>
+                        </div>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <div class="card-footer text-white">
+                            <a href="#" class="card-link text-white">Add To Cart</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -221,19 +292,19 @@
 
     <div class="footer">
 
-        <ul class="nav justify-content-center text-muted">
+        <ul class="nav justify-content-center text-white">
             <li id="footerList" class="nav-item">
                 <h5>Contact</h5>
                 <p>Example@example.com</p>
             </li>
             <li id="footerList" class="nav-item">
                 <h5>Social Media</h5>
-                <a class="nav-link text-muted" href="#">Link</a>
+                <a class="nav-link text-white" href="#">Link</a>
             </li>
             <li id="footerList" class="nav-item">
                 <h5>Customer Care</h5>
-                <a class="nav-link text-muted" href="#">Track Your Order</a>
-                <a class="nav-link text-muted" href="#">Terms & Policy</a>
+                <a class="nav-link text-white" href="#">Track Your Order</a>
+                <a class="nav-link text-white" href="#">Terms & Policy</a>
             </li>
         </ul>
 

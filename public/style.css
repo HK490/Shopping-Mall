@@ -1,6 +1,6 @@
-body{
+/* body{
     padding-top: 10vh;
-}
+} */
 
 .headers {
     text-align: center;
@@ -8,8 +8,14 @@ body{
 
 /* NAVBAR */
 .navbar{
-    display: inline-block! important;
+    /* display: inline-block! important; */
+    background: black! important;
 }
+
+/* #companyName{
+    width: 90vw;
+    font-size: 1em;
+} */
 
 /* SLIDER */
 .carousel-item{
@@ -28,6 +34,10 @@ body{
 
 }
 
+.card-text{
+    height: 10rem;
+}
+
 .card-deck{
     padding: 3%;
 }
@@ -35,7 +45,8 @@ body{
 /* FOOTER */
 .footer {
     width: 100%;
-    background-color: #F8F8F8;
+    /* background-color: #F8F8F8; */
+    background: black;
     text-align: center;
     margin:0;
     padding: 5px;

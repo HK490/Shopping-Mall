@@ -1,3 +1,6 @@
+
+$(".scarfInfo").hide();
+
 // SIGNIN MODAL
 
 $("#signInBtn").on("click", function() {
@@ -35,8 +38,14 @@ $(".close").on("click", function() {
 
 $(".card").on("mouseover", function(){
   $(this).css({"background": "black", "color": "white"});
-  $(this).hasClass("imageCollection").hide()
+  $(this).find("img").hide();
+  $(this).find(".scarfInfo").show();
+  // $(".imageCollection").append(`<ul>
+  //   <li>hi</li>
+  // <ul>`)
   }).on("mouseleave", function(){
     $(this).css({"background": "white", "color": "black"});
+    $(this).children("img").show();
+    $(this).children(".scarfInfo").hide()
   })
 
