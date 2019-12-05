@@ -49,4 +49,9 @@ $(".card").on("mouseover", function(){
     $(this).children(".scarfInfo").hide()
   })
 
+  $("#createAcctBtn").hover(function(){
+    $(this).append($(`<p>Create Account</p>`))
+  }, function(){
+    $(this).find("p").last().remove();
+  });
   

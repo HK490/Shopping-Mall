@@ -10,12 +10,19 @@
 .navbar{
     /* display: inline-block! important; */
     background: black! important;
+    height: 60px;
 }
 
-/* #companyName{
-    width: 90vw;
-    font-size: 1em;
-} */
+#companyName{
+    width: 53vw;
+    margin-left:40vw;
+}
+
+#createAcctBtn,
+#signInBtn{
+    position: fixed;
+    top:12px;
+}
 
 /* SLIDER */
 .carousel-item{
